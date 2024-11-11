@@ -1,0 +1,37 @@
+body, main, div {
+  display: flex; /* autenticacao */
+  align-items: center; /* autenticacao */
+  justify-content: center; /* autenticacao */
+}
+
+body {
+  background-color: #f3fad3; /* autenticacao */
+}
+
+main {
+  flex-direction: column;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  margin: 10px 5px;
+  font-family: "Alegraya Sans Black", sans-serif; /* autenticacao */
+  color: #051e0e;
+  font-size: 2em;
+}
+
+a {
+  margin: 30px 5px;
+  padding: 5px 15px 5px 15px;
+  font-family: "Assistant Regular", sans-serif;
+  text-decoration: none;
+  color: #000000; /* autenticacao */
+  background-color: #d9d9d9;
+  font-size: 1.2em;
+  border-radius: 15px;
+}

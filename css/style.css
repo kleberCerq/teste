@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Alegraya Sans Black";
+  src: url(../fonts/AlegreyaSans-Black.ttf);
+}
+
+@font-face {
+  font-family: "Assistant Regular";
+  src: url(../fonts/Assistant-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Cardo Regular";
+  src: url(../fonts/Cardo-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=person" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/autenticacao.css" />
+    <script src="../js/autenticacao.js" defer></script>
+    <title>Cadastro - Lugar de Sorte</title>
+  </head>
+  <body>
+    <main>
+      <div id="title-container">
+        <h1>Conta</h1>
+        <span class="material-symbols-outlined">person</span>
+      </div>
+
+      <p>login</p>
+
+      <form action="/cadastro" method="post">
+        <div class="input-container">
+          <input id="name" name="name" type="text" placeholder="NOME" />
+          <input id="cpf" name="cpf" type="text" placeholder="CPF" />
+          <input id="cnpj" name="cnpj" class="hidden" type="text" placeholder="CNPJ" />
+        </div>
+
+        <div class="button-container">
+          <button id="cpf-button" type="button" onclick="toggleInput()" disabled>PESSOA FÍSICA</button>
+          <button id="cnpj-button" type="button" onclick="toggleInput()">PESSOA JURÍDICA</button>
+        </div>
+
+        <div class="input-container">
+          <input id="email" name="email" type="email" placeholder="E-MAIL" />
+          <input id="password" name="password" type="password" placeholder="SENHA" />
+        </div>
+
+        <div class="button-container">
+          <button type="reset">APAGAR</button>
+          <button type="submit">CONFIRMAR</button>
+        </div>
+      </form>
+
+      <p class="end-page">
+        Já tem uma conta? <a href="login.html">Fazer login</a>
+      </p>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+body {
+  display: flex; /* index */
+  align-items: center; /* index */
+  justify-content: center; /* index */
+  background-color: #f3fad3; /* index */
+}
+
+#title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h1 {
+  font-family: "Alegraya Sans Black", sans-serif; /* index */
+  font-size: 4em;
+}
+
+.material-symbols-outlined {
+  font-size: 100px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+p {
+  margin: 15px;
+  font-family: "Cardo Regular";
+  font-size: 1.3em;
+}
+
+.end-page {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 5px;
+  padding: 15px;
+  font-family: "Open Sans Regular", sans-serif;
+  font-size: 1.3em;
+  background-color: #f3fad3;
+  border: 2px dotted #000000;
+}
+
+input:focus {
+  z-index: 1;
+}
+
+#name, #email {
+  margin-bottom: -1px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#cpf, #cnpj, #password {
+  margin-top: -1px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.input-login {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+button {
+  margin: 10px 5px;
+  padding: 5px 15px 5px 15px;
+  font-family: "Assistant Regular", sans-serif;
+  font-size: 1.3em;
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+a {
+  font-family: "Cardo Regular";
+  color: #000000; /* index */
+}
